@@ -7,6 +7,7 @@
     "com.meta.xr.sdk.haptics": "63.0.0",
     "com.meta.xr.sdk.interaction.ovr.samples": "65.0.0",
     "com.meta.xr.sdk.sharedassets": "65.0.0",
+    "com.readyplayerme.core": "https://github.com/readyplayerme/rpm-unity-sdk-core.git",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.development": "1.0.1",
