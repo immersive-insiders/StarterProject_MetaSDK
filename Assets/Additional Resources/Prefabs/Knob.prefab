@@ -49,7 +49,20 @@ MonoBehaviour:
   knobTrasform: {fileID: 1371868719078221989}
   OnKnobValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ReadyPlayerMe.Samples.AvatarCreatorElements.SimpleAvatarCreator,
+          ReadyPlayerMe.Samples.AvatarCreatorElements
+        m_MethodName: RotateAvatar
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1111276307894404043
 GameObject:
   m_ObjectHideFlags: 0
@@ -74,7 +87,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111276307894404043}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -109,9 +122,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470672994764350442}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1376, y: 0, z: 0}
-  m_LocalScale: {x: 29.429026, y: 11.682135, z: 21.780378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 29.429026, y: 11.682135, z: 16.047203}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1371868719078221989}
@@ -493,8 +506,8 @@ MonoBehaviour:
   _rotationAxis: 1
   _constraints:
     MinAngle:
-      Constrain: 1
+      Constrain: 0
       Value: 0
     MaxAngle:
-      Constrain: 1
+      Constrain: 0
       Value: 180
