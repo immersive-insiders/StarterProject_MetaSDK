@@ -13,9 +13,9 @@ public class HandPoseTracker : MonoBehaviour
     [SerializeField] private HandRef rightHandRef;
 
     // Reference to the SkinnedMeshRenderer for visualization
-    [SerializeField] private SkinnedMeshRenderer rightHandRenderer;
-
     [SerializeField] private SkinnedMeshRenderer leftHandRenderer;
+    
+    [SerializeField] private SkinnedMeshRenderer rightHandRenderer;
 
     // Colors for hands when detected
     [SerializeField] private Color defaultHandColor;
