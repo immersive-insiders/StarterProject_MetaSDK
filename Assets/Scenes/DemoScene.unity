@@ -1635,7 +1635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2859147190566827362, guid: bf018bf093319f840a7314cb25167d8c, type: 3}
       propertyPath: m_Name
-      value: Dialog (1)
+      value: Dialog
       objectReference: {fileID: 0}
     - target: {fileID: 2859147191208444800, guid: bf018bf093319f840a7314cb25167d8c, type: 3}
       propertyPath: m_AnchorMax.y
