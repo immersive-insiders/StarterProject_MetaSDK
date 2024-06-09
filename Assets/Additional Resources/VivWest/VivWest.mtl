@@ -1,0 +1,880 @@
+# vrStore MTL Model File
+
+newmtl Material_1
+Ka 0.86 0.86 0.86
+Kd 0.86 0.86 0.86
+Ks 1 1 1
+Ns 393
+
+newmtl Material_2
+Ka 0.9137 0.9137 0.9529
+Kd 0.9137 0.9137 0.9529
+Ks 0.9216 0.9216 0.9569
+Ns 100
+map_Kd pylons_2.jpg
+
+newmtl Material_3
+Ka 0.4627 0.6118 0.7882
+Kd 0.4627 0.6118 0.7882
+Ks 0.4627 0.6118 0.7843
+Ns 0
+map_Kd BLUE_BLUE__MJS_3.jpg
+
+newmtl Material_4
+Ka 0.7686 0.8471 0.9333
+Kd 0.7686 0.8471 0.9333
+Ks 0.8 0.8706 0.9451
+Ns 151
+map_Kd Water_Color_Blue_MJS_4.jpg
+
+newmtl Material_5
+Ka 0.7686 0.9569 0.9176
+Kd 0.7686 0.9569 0.9176
+Ks 0.9686 0.9922 0.9882
+d 0.2
+Ns 867
+
+newmtl Material_6
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.8 0.8 0.8
+Ns 806
+
+newmtl Material_7
+Ka 0 0.7569 0.6039
+Kd 0 0.7569 0.6039
+Ks 1 1 1
+d 0.12
+Ns 1007
+
+newmtl Material_8
+Ka 1 0.9294 0.9843
+Kd 1 0.9294 0.9843
+Ks 1 0.9451 0.9882
+Ns 201
+map_Kd Tiles_concrete_8.jpg
+
+newmtl Material_9
+Ka 1 0.9451 0.9451
+Kd 1 0.9451 0.9451
+Ks 0 0 0
+Ns 806
+
+newmtl Material_10
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.9373 0.9373 0.9373
+Ns 846
+map_Kd AluminiumBrushed_dark_10.jpg
+
+newmtl Material_11
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0294 0.0235 0.0147
+Ns 314
+map_Kd sign_11.jpg
+
+newmtl Material_12
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0814 0.0412 0.0412
+Ns 314
+map_Kd VW_Heather_Red_Shoulder_Bag_12.jpg
+
+newmtl Material_13
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1176 0.1167 0.0775
+Ns 314
+map_Kd VW_Belle_Heart_Frame_Purse_13.jpg
+
+newmtl Material_14
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1363 0.1304 0.1275
+Ns 314
+map_Kd Sam_Med_Crossbody__grey__14.jpg
+
+newmtl Material_15
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.049 0.048 0.0471
+Ns 314
+map_Kd VW_Mini_Daisy_Drawstring_Bucket_15.jpg
+
+newmtl Material_16
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0265 0.0255 0.0392
+Ns 314
+map_Kd VW_Orb_Peru_Navy_T_Shirt_16.jpg
+
+newmtl Material_17
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0588 0.0559 0.048
+Ns 314
+map_Kd VW_Hilda_Top_17.jpg
+
+newmtl Material_18
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1029 0.049 0.0441
+Ns 314
+map_Kd VW_Edith_Cropped_Cardi_18.jpg
+
+newmtl Material_19
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1716 0.148 0.1118
+Ns 314
+map_Kd VW_Villagers_Bodysuit_19.jpg
+
+newmtl Material_20
+Ka 0.9804 1 1
+Kd 0.9804 1 1
+Ks 0.9765 1 1
+Ns 40
+
+newmtl Material_21
+Ka 0.9059 1 1
+Kd 0.9059 1 1
+Ks 0.9098 1 1
+d 0.8
+Ns 40
+
+newmtl Material_22
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1735 0.1735 0.1725
+Ns 314
+map_Kd VW_Plimsoll_High_Top_Canvas_22.jpg
+
+newmtl Material_23
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1725 0.0608 0.0598
+Ns 314
+map_Kd VW_Studio_Shopper_23.jpg
+
+newmtl Material_24
+Ka 0.6235 0.6275 0.6196
+Kd 0.6235 0.6275 0.6196
+Ks 0.698 0.702 0.6941
+Ns 201
+map_Kd Beton_24.jpg
+
+newmtl Material_25
+Ka 0.4353 0.4353 0.4353
+Kd 0.4353 0.4353 0.4353
+Ks 0.4627 0.4627 0.4627
+Ns 50
+map_Kd The_Brand_Dark_Grey_25.jpg
+
+newmtl Material_26
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1686 0.1657 0.1863
+Ns 314
+map_Kd VW_Pourpoint_Classic_Jacket_26.jpg
+
+newmtl Material_27
+Ka 0.4039 0.4235 0.4471
+Kd 0.4039 0.4235 0.4471
+Ks 0.4039 0.4235 0.4471
+Ns 7
+map_Kd Metal_27.jpg
+
+newmtl Material_28
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1735 0.1676 0.1863
+Ns 314
+map_Kd VW_W_Cj_Shorts_28.jpg
+
+newmtl Material_29
+Ka 0.9216 0.9373 0.949
+Kd 0.9216 0.9373 0.949
+Ks 0.9373 0.949 0.9608
+Ns 201
+map_Kd The_Shop_light_grey_29.jpg
+
+newmtl Material_30
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.2118 0.1235 0.0814
+Ns 314
+map_Kd VW_Saffiano_Mini_Yasmine_Hangbag_30.jpg
+
+newmtl Material_31
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1667 0.1088 0.1882
+Ns 314
+map_Kd VW_Hazel_Med_Handbag_31.jpg
+
+newmtl Material_32
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1667 0.1088 0.1882
+Ns 314
+map_Kd VW_Hazel_Med_Handbag_31.jpg
+
+newmtl Material_33
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.2118 0.1235 0.0814
+Ns 314
+map_Kd VW_Saffiano_Mini_Yasmine_Hangbag_30.jpg
+
+newmtl Material_34
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0971 0.0814 0.0735
+Ns 314
+map_Kd poster_1_32.jpg
+
+newmtl Material_35
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1696 0.1647 0.1461
+Ns 314
+map_Kd VW_Salor_Skirt_33.jpg
+
+newmtl Material_36
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1892 0.1196 0.1265
+Ns 314
+map_Kd VW_Artic_Mary_Janes_34.jpg
+
+newmtl Material_37
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.2157 0.1441 0.1078
+Ns 314
+map_Kd VW_Towelling_Small_Purse_35.jpg
+
+newmtl Material_38
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1843 0.0824 0.101
+Ns 314
+map_Kd VW_Swamp_Clogs__pink__36.jpg
+
+newmtl Material_39
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1676 0.1824 0.1892
+Ns 314
+map_Kd Vw_Belle_Heart_Fram_Purse__blue__37.jpg
+
+newmtl Material_40
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0412 0.0382 0.0353
+Ns 314
+map_Kd VW_Alex_Stud_Sandels_38.jpg
+
+newmtl Material_41
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0412 0.0382 0.0353
+Ns 314
+map_Kd VW_Alex_Stud_Sandels_38.jpg
+
+newmtl Material_42
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1735 0.1735 0.1725
+Ns 314
+map_Kd VW_Plimsoll_High_Top_Canvas_22.jpg
+
+newmtl Material_43
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.15 0.1706 0.1765
+Ns 314
+map_Kd VW_Elevated_Ghillie_Heels__39.jpg
+
+newmtl Material_44
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1843 0.148 0.1284
+Ns 314
+map_Kd VW_Andreas_Dress_40.jpg
+
+newmtl Material_45
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.2255 0.2255 0.2255
+Ns 314
+map_Kd VW_Yves_Jacket_41.jpg
+
+newmtl Material_46
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1049 0.0892 0.0824
+Ns 314
+map_Kd poster_7_42.jpg
+
+newmtl Material_47
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0833 0.0755 0.0765
+Ns 314
+map_Kd VW_Culottes_Skirt_43.jpg
+
+newmtl Material_48
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0971 0.0431 0.0402
+Ns 314
+map_Kd VW_Edith_Skirt_44.jpg
+
+newmtl Material_49
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.049 0.048 0.0471
+Ns 314
+map_Kd VW_Mini_Daisy_Drawstring_Bucket_15.jpg
+
+newmtl Material_50
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0657 0.0725 0.1382
+Ns 314
+map_Kd VW_Midas_Boots_45.jpg
+
+newmtl Material_51
+Ka 0.949 0.949 0.949
+Kd 0.949 0.949 0.949
+Ks 0.9608 0.9608 0.9608
+Ns 201
+
+newmtl Material_52
+Ka 0.7647 0.6667 0.5765
+Kd 0.7647 0.6667 0.5765
+Ks 0.8118 0.7294 0.651
+Ns 201
+
+newmtl Material_53
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1735 0.1775 0.1775
+Ns 314
+map_Kd VW_Lil_Camberwell_Silver_Watch_48.jpg
+
+newmtl Material_54
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.201 0.1794 0.1461
+Ns 314
+map_Kd VW_Seymour_Gold_Watch_49.jpg
+
+newmtl Material_55
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1559 0.1098 0.0686
+Ns 314
+map_Kd VW_Crocodile_Slim_Flap_Card_Holder__brown__50.jpg
+
+newmtl Material_56
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1 0.15 0.1676
+Ns 314
+map_Kd VW_Crocodile_Slim_Flap_Card_Holder__blue__51.jpg
+
+newmtl Material_57
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0441 0.0441 0.0441
+Ns 314
+map_Kd VW_Crocodile_Slim_Flap_Card_Holder__black__52.jpg
+
+newmtl Material_58
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1588 0.1304 0.1088
+Ns 314
+map_Kd VW_Cavendish_Gold_Watch_53.jpg
+
+newmtl Material_59
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1549 0.1431 0.1127
+Ns 314
+map_Kd VW_Liza_Sunglasses__54.jpg
+
+newmtl Material_60
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1461 0.1216 0.1137
+Ns 314
+map_Kd VW_Athalia_Sunglasses_55.jpg
+
+newmtl Material_61
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1069 0.1284 0.1353
+Ns 314
+map_Kd VW_Tina_Blue_Sunglasses_56.jpg
+
+newmtl Material_62
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1912 0.1559 0.1804
+Ns 314
+map_Kd VW_Tina_Pink_Sunglasses_57.jpg
+
+newmtl Material_63
+Ka 0.9608 0.9765 1
+Kd 0.9608 0.9765 1
+Ks 0.9686 0.9804 1
+Ns 201
+map_Kd Tiles_Mosaique_B_W_58.jpg
+
+newmtl Material_64
+Ka 1 1 1
+Kd 1 1 1
+Ks 1 1 1
+Ns 503
+
+newmtl Material_65
+Ka 0.3882 0.4549 0.4941
+Kd 0.3882 0.4549 0.4941
+Ks 0.4941 0.5569 0.5961
+Ns 201
+map_Kd Christian_L_Blue_mosiac__60.jpg
+
+newmtl Material_66
+Ka 0.7961 0.8 0.8157
+Kd 0.7961 0.8 0.8157
+Ks 0.898 0.898 0.9098
+Ns 503
+map_Kd chrome_61.jpg
+
+newmtl Material_67
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0216 0.0216 0.0225
+Ns 314
+map_Kd VW_Bea_Corset_Cardi_62.jpg
+
+newmtl Material_68
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0637 0.052 0.052
+Ns 314
+map_Kd VW_Gib_Shirt_63.jpg
+
+newmtl Material_69
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0588 0.0559 0.048
+Ns 314
+map_Kd VW_Hilda_Top_17.jpg
+
+newmtl Material_70
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0971 0.0863 0.05
+Ns 314
+map_Kd VW_Combat_Tartan_Poncho_64.jpg
+
+newmtl Material_71
+Ka 1 1 1
+Kd 1 1 1
+Ks 1 1 1
+Ns 705
+
+newmtl Material_72
+Ka 0.1373 0.1373 0.1373
+Kd 0.1373 0.1373 0.1373
+Ks 0.3059 0.3059 0.3059
+Ns 197
+
+newmtl Material_73
+Ka 0.8549 0.8353 0.8196
+Kd 0.8549 0.8353 0.8196
+Ks 0.8824 0.8667 0.8549
+Ns 201
+map_Kd White_pearl_67.jpg
+
+newmtl Material_74
+Ka 0.9569 0.9569 0.9569
+Kd 0.9569 0.9569 0.9569
+Ks 0.9804 0.9804 0.9804
+Ns 517
+map_Kd aluminium_brushed_68.jpg
+
+newmtl Material_75
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0804 0.0725 0.0922
+Ns 314
+map_Kd VW_Sunday_Corset_Top_69.jpg
+
+newmtl Material_76
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1333 0.1275 0.1118
+Ns 314
+map_Kd VW_Zora_Skirt_70.jpg
+
+newmtl Material_77
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1716 0.148 0.1118
+Ns 314
+map_Kd VW_Villagers_Bodysuit_19.jpg
+
+newmtl Material_78
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0971 0.1088 0.1255
+Ns 314
+map_Kd VW_Bea_kilt_71.jpg
+
+newmtl Material_79
+Ka 0.9216 0.9216 0.9137
+Kd 0.9216 0.9216 0.9137
+Ks 0.9373 0.9373 0.9294
+d 0.94
+Ns 181
+map_Kd Mirror_72.jpg
+
+newmtl Material_80
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0971 0.1088 0.1255
+Ns 314
+map_Kd VW_Bea_kilt_71.jpg
+
+newmtl Material_81
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0833 0.0755 0.0765
+Ns 314
+map_Kd VW_Culottes_Skirt_43.jpg
+
+newmtl Material_82
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0657 0.0725 0.1382
+Ns 314
+map_Kd VW_Midas_Boots_45.jpg
+
+newmtl Material_83
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1676 0.1824 0.1892
+Ns 314
+map_Kd Vw_Belle_Heart_Fram_Purse__blue__37.jpg
+
+newmtl Material_84
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1 0.15 0.1676
+Ns 314
+map_Kd VW_Crocodile_Slim_Flap_Card_Holder__blue__51.jpg
+
+newmtl Material_85
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1363 0.1304 0.1275
+Ns 314
+map_Kd Sam_Med_Crossbody__grey__14.jpg
+
+newmtl Material_86
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1059 0.0559 0.049
+Ns 314
+map_Kd poster_3_73.jpg
+
+newmtl Material_87
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1941 0.1373 0.1196
+Ns 314
+map_Kd VW_Cardinale_Corset__74.jpg
+
+newmtl Material_88
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0971 0.0863 0.05
+Ns 314
+map_Kd VW_Combat_Tartan_Poncho_64.jpg
+
+newmtl Material_89
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0814 0.0412 0.0412
+Ns 314
+map_Kd VW_Heather_Red_Shoulder_Bag_12.jpg
+
+newmtl Material_90
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0441 0.0441 0.0441
+Ns 314
+map_Kd VW_Crocodile_Slim_Flap_Card_Holder__black__52.jpg
+
+newmtl Material_91
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1549 0.1431 0.1127
+Ns 314
+map_Kd VW_Liza_Sunglasses__54.jpg
+
+newmtl Material_92
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1176 0.1167 0.0775
+Ns 314
+map_Kd VW_Belle_Heart_Frame_Purse_13.jpg
+
+newmtl Material_93
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0853 0.0569 0.0431
+Ns 314
+map_Kd Poster_8_75.jpg
+
+newmtl Material_94
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1608 0.1549 0.1363
+Ns 314
+map_Kd VW_Cropped_Denim_Boxer_Jacket_76.jpg
+
+newmtl Material_95
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1696 0.1647 0.1461
+Ns 314
+map_Kd VW_Salor_Skirt_33.jpg
+
+newmtl Material_96
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.149 0.1265 0.0941
+Ns 314
+map_Kd VW_Villagers_Cardi_77.jpg
+
+newmtl Material_97
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1578 0.1814 0.1902
+Ns 314
+map_Kd VW_Foam_Skirt_78.jpg
+
+newmtl Material_98
+Ka 0.1373 0.1373 0.1373
+Kd 0.1373 0.1373 0.1373
+Ks 0.251 0.251 0.251
+Ns 100
+
+newmtl Material_99
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0333 0.0294 0.0294
+Ns 314
+map_Kd poster_4_80.jpg
+
+newmtl Material_100
+Ka 1 1 1
+Kd 1 1 1
+Ks 1 1 1
+Ns 197
+
+newmtl Material_101
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1569 0.1598 0.1618
+Ns 314
+map_Kd Poster_2_82.jpg
+
+newmtl Material_102
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0971 0.0431 0.0402
+Ns 314
+map_Kd VW_Edith_Skirt_44.jpg
+
+newmtl Material_103
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.098 0.0461 0.0402
+Ns 314
+map_Kd VW_Edith_Dress_83.jpg
+
+newmtl Material_104
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1775 0.1314 0.1196
+Ns 314
+map_Kd Poster_5_84.jpg
+
+newmtl Material_105
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1765 0.1294 0.1186
+Ns 314
+map_Kd Poster_6_85.jpg
+
+newmtl Material_106
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1735 0.1735 0.1725
+Ns 314
+map_Kd VW_Plimsoll_High_Top_Canvas_22.jpg
+
+newmtl Material_107
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1735 0.1735 0.1725
+Ns 314
+map_Kd VW_Plimsoll_High_Top_Canvas_22.jpg
+
+newmtl Material_108
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1735 0.1735 0.1725
+Ns 314
+map_Kd VW_Plimsoll_High_Top_Canvas_22.jpg
+
+newmtl Material_109
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1735 0.1735 0.1725
+Ns 314
+map_Kd VW_Plimsoll_High_Top_Canvas_22.jpg
+
+newmtl Material_110
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1676 0.1824 0.1892
+Ns 314
+map_Kd Vw_Belle_Heart_Fram_Purse__blue__37.jpg
+
+newmtl Material_111
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1676 0.1824 0.1892
+Ns 314
+map_Kd Vw_Belle_Heart_Fram_Purse__blue__37.jpg
+
+newmtl Material_112
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1676 0.1824 0.1892
+Ns 314
+map_Kd Vw_Belle_Heart_Fram_Purse__blue__37.jpg
+
+newmtl Material_113
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1892 0.1196 0.1265
+Ns 314
+map_Kd VW_Artic_Mary_Janes_34.jpg
+
+newmtl Material_114
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1892 0.1196 0.1265
+Ns 314
+map_Kd VW_Artic_Mary_Janes_34.jpg
+
+newmtl Material_115
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1892 0.1196 0.1265
+Ns 314
+map_Kd VW_Artic_Mary_Janes_34.jpg
+
+newmtl Material_116
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1892 0.1196 0.1265
+Ns 314
+map_Kd VW_Artic_Mary_Janes_34.jpg
+
+newmtl Material_117
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.2157 0.1441 0.1078
+Ns 314
+map_Kd VW_Towelling_Small_Purse_35.jpg
+
+newmtl Material_118
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.2157 0.1441 0.1078
+Ns 314
+map_Kd VW_Towelling_Small_Purse_35.jpg
+
+newmtl Material_119
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.2157 0.1441 0.1078
+Ns 314
+map_Kd VW_Towelling_Small_Purse_35.jpg
+
+newmtl Material_120
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.15 0.1706 0.1765
+Ns 314
+map_Kd VW_Elevated_Ghillie_Heels__39.jpg
+
+newmtl Material_121
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.15 0.1706 0.1765
+Ns 314
+map_Kd VW_Elevated_Ghillie_Heels__39.jpg
+
+newmtl Material_122
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.15 0.1706 0.1765
+Ns 314
+map_Kd VW_Elevated_Ghillie_Heels__39.jpg
+
+newmtl Material_123
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.15 0.1706 0.1765
+Ns 314
+map_Kd VW_Elevated_Ghillie_Heels__39.jpg
+
+newmtl Material_124
+Ka 0.1961 0.1961 0.1961
+Kd 0.1961 0.1961 0.1961
+Ks 0.3529 0.3529 0.3529
+Ns 197
+
+newmtl Material_125
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.1039 0.0814 0.0794
+Ns 314
+map_Kd mani_1_87.jpg
+
+newmtl Material_126
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0618 0.0549 0.0608
+Ns 314
+map_Kd mani_2_88.jpg
+
+newmtl Material_127
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0637 0.0529 0.0529
+Ns 314
+map_Kd mani_3_89.jpg
+
