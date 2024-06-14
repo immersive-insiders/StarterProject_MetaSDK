@@ -10,13 +10,10 @@ public class ProductController : MonoBehaviour
     [SerializeField] private ToggleGroup[] productSelection;
     [SerializeField] private ToggleGroup categorySelection;
     [SerializeField] private CustomPalmMenu customPalmMenu;
-    private int catogetyPage;
-    private int productNumber;
 
     private void Start()
     {
         Toggle[] catogeryToggles = categorySelection.GetComponentsInChildren<Toggle>();
-        Debug.Log(catogeryToggles.Length + "<<< number  =");
 
         for (int pageIndex = 0; pageIndex < catogeryToggles.Length; pageIndex++)
         {
@@ -25,7 +22,6 @@ public class ProductController : MonoBehaviour
             {
                 if (!isCatgogeryToggled)
                 {
-                    Debug.Log("<<< index= " + catogeryIndex);
                     productSelection[catogeryIndex].SetAllTogglesOff();
                 }
             });
