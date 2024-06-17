@@ -15,4 +15,4 @@ MonoBehaviour:
   Subdomain: meta-multiplayer-project
   AppId: 65e81536594492e275e9bf6d
   EnableLogging: 0
-  EnableAnalytics: 0
+  EnableAnalytics: 1
