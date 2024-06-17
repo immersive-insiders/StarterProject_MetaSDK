@@ -1355,63 +1355,6 @@ MonoBehaviour:
   m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
   m_EffectDistance: {x: 2, y: 2}
   m_UseGraphicAlpha: 1
---- !u!1001 &139098087
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -3970243614316841892, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.594
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5.76
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2107409826236812522, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
-      propertyPath: m_Name
-      value: Men_levis_jeans
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 3150474306388093854, guid: d69b647525d53ca44a35ce60ab020bd1, type: 3}
 --- !u!1 &156467437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1494,7 +1437,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -3970243614316841892, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.32
+      value: -3.23
       objectReference: {fileID: 0}
     - target: {fileID: -3970243614316841892, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1502,11 +1445,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3970243614316841892, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.13
+      value: -3.63
       objectReference: {fileID: 0}
     - target: {fileID: -3970243614316841892, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.86022854
+      value: 0.8626007
       objectReference: {fileID: 0}
     - target: {fileID: -3970243614316841892, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1514,7 +1457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3970243614316841892, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.5099088
+      value: 0.50588536
       objectReference: {fileID: 0}
     - target: {fileID: -3970243614316841892, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1526,7 +1469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3970243614316841892, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -61.315
+      value: 60.78
       objectReference: {fileID: 0}
     - target: {fileID: -3970243614316841892, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1537,7 +1480,9 @@ PrefabInstance:
       value: Men_puma_trousers
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -9022290285878174249, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
+    - {fileID: 3330583336203893932, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 3150474306388093854, guid: ae7c0879c3b853b4c9dcd1918f5cb827, type: 3}
@@ -3535,63 +3480,6 @@ MonoBehaviour:
     element: {fileID: 1894432394}
   - button: {fileID: 13700472}
     element: {fileID: 1528640350}
---- !u!1001 &550015914
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -3970243614316841892, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.82
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.9
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2107409826236812522, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
-      propertyPath: m_Name
-      value: Women_missoni_dress
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 3150474306388093854, guid: 162c3e87878ee5a40b5afa7c6a27a1d8, type: 3}
 --- !u!1 &551969182
 GameObject:
   m_ObjectHideFlags: 0
@@ -8911,63 +8799,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948899248}
   m_CullTransparentMesh: 1
---- !u!1001 &949241022
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -3970243614316841892, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.194
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.43
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2107409826236812522, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
-      propertyPath: m_Name
-      value: Women_levis_jeans
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 3150474306388093854, guid: 4b87da1247443cb45b90a7d6f02d519d, type: 3}
 --- !u!1 &974807137
 GameObject:
   m_ObjectHideFlags: 0
@@ -14211,63 +14042,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838102667}
   m_CullTransparentMesh: 1
---- !u!1001 &1847436186
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -3970243614316841892, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.85
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.87740815
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.47974473
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -57.337
-      objectReference: {fileID: 0}
-    - target: {fileID: -3970243614316841892, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2107409826236812522, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
-      propertyPath: m_Name
-      value: Women_victoria beckham_dress
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 3150474306388093854, guid: cf74fff48d5b51840a7dbea2d9145752, type: 3}
 --- !u!1001 &1854776856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16082,8 +15856,4 @@ SceneRoots:
   - {fileID: 729750674}
   - {fileID: 1476764129}
   - {fileID: 1010811273}
-  - {fileID: 139098087}
   - {fileID: 197657719}
-  - {fileID: 949241022}
-  - {fileID: 550015914}
-  - {fileID: 1847436186}
