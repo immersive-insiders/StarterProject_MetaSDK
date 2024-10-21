@@ -51,7 +51,7 @@ public class CustomPalmMenu : MonoBehaviour
     {
         _currentColorIdx = _colors.Length;
 
-        _rotationEnabled = false;
+        _rotationEnabled = true;
         ToggleRotationEnabled();
 
         _currentRotationDirectionIdx = _rotationDirections.Length;
