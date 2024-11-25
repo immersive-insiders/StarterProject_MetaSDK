@@ -123,6 +123,210 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &3333377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3333378}
+  - component: {fileID: 3333382}
+  - component: {fileID: 3333381}
+  - component: {fileID: 3333380}
+  - component: {fileID: 3333379}
+  - component: {fileID: 3333383}
+  m_Layer: 0
+  m_Name: '[BuildingBlock] HandGrab'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3333378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333377}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3993649773581013922}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3333379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1bc992571301d4a9602ac95ef4c71a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 3333381}
+  _rigidbody: {fileID: 9214058870090579994}
+  _grabSource: {fileID: 0}
+  _useClosestPointAsGrabSource: 0
+  _releaseDistance: 0
+  _resetGrabOnGrabsUpdated: 1
+  _physicsGrabbable: {fileID: 0}
+--- !u!114 &3333380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 3333381}
+  _rigidbody: {fileID: 9214058870090579994}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.5
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 0
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 1
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 0
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 0
+  _handGrabPoses: []
+--- !u!114 &3333381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transferOnSecondSelection: 0
+  _addNewPointsToFront: 0
+  _forwardElement: {fileID: 0}
+  _oneGrabTransformer: {fileID: 3333383}
+  _twoGrabTransformer: {fileID: 3333383}
+  _targetTransform: {fileID: 3993649773581013922}
+  _maxGrabPoints: -1
+  _rigidbody: {fileID: 9214058870090579994}
+  _kinematicWhileSelected: 1
+  _throwWhenUnselected: 1
+--- !u!114 &3333382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockId: f8766c17-aaf8-4b55-9431-de8deea83842
+  instanceId: 9a2afaeb-0488-4862-8e8e-d5b716aba2b7
+  version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: f8338144-8280-4ff6-9455-ae2bb9c20fe8
+    _installationVariants:
+    - _memberName: mode
+      _value: '{"value__":0}'
+--- !u!114 &3333383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb7085c111fcb44493d57d4e336d3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _positionConstraints:
+    ConstraintsAreRelative: 0
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _rotationConstraints:
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _scaleConstraints:
+    ConstraintsAreRelative: 1
+    XAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    YAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    ZAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
 --- !u!1 &11127440
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +496,7 @@ GameObject:
   - component: {fileID: 21437822}
   - component: {fileID: 21437821}
   - component: {fileID: 21437820}
+  - component: {fileID: 21437824}
   m_Layer: 0
   m_Name: '[BuildingBlock] HandGrab'
   m_TagString: Untagged
@@ -390,11 +595,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transferOnSecondSelection: 1
+  _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
-  _twoGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 21437824}
+  _twoGrabTransformer: {fileID: 21437824}
   _targetTransform: {fileID: 1616389385}
   _maxGrabPoints: -1
   _rigidbody: {fileID: 1616389384}
@@ -420,6 +625,68 @@ MonoBehaviour:
     _installationVariants:
     - _memberName: mode
       _value: '{"value__":0}'
+--- !u!114 &21437824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21437818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb7085c111fcb44493d57d4e336d3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _positionConstraints:
+    ConstraintsAreRelative: 0
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _rotationConstraints:
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _scaleConstraints:
+    ConstraintsAreRelative: 1
+    XAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    YAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    ZAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
 --- !u!1 &23973112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1909,6 +2176,7 @@ GameObject:
   - component: {fileID: 126044622}
   - component: {fileID: 126044621}
   - component: {fileID: 126044620}
+  - component: {fileID: 126044624}
   m_Layer: 0
   m_Name: '[BuildingBlock] HandGrab'
   m_TagString: Untagged
@@ -2007,11 +2275,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transferOnSecondSelection: 1
+  _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
-  _twoGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 126044624}
+  _twoGrabTransformer: {fileID: 126044624}
   _targetTransform: {fileID: 1067772803}
   _maxGrabPoints: -1
   _rigidbody: {fileID: 1067772804}
@@ -2037,6 +2305,68 @@ MonoBehaviour:
     _installationVariants:
     - _memberName: mode
       _value: '{"value__":0}'
+--- !u!114 &126044624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126044618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb7085c111fcb44493d57d4e336d3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _positionConstraints:
+    ConstraintsAreRelative: 0
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _rotationConstraints:
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _scaleConstraints:
+    ConstraintsAreRelative: 1
+    XAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    YAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    ZAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
 --- !u!1 &128870937
 GameObject:
   m_ObjectHideFlags: 0
@@ -3083,6 +3413,7 @@ GameObject:
   - component: {fileID: 171854283}
   - component: {fileID: 171854282}
   - component: {fileID: 171854281}
+  - component: {fileID: 171854288}
   m_Layer: 0
   m_Name: ISDK_DistanceHandGrabInteraction
   m_TagString: Untagged
@@ -3185,8 +3516,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 171854287}
   _rigidbody: {fileID: 7621921071288865849}
@@ -3207,8 +3538,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 171854287}
   _rigidbody: {fileID: 7621921071288865849}
@@ -3256,7 +3587,7 @@ MonoBehaviour:
   _snapPoseTransform: {fileID: 0}
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 616487820}
-  _timeOut: 2
+  _timeOut: 10
 --- !u!114 &171854287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3279,6 +3610,52 @@ MonoBehaviour:
   _rigidbody: {fileID: 7621921071288865849}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!114 &171854288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171854279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointable: {fileID: 171854285}
+  _whenRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704513682}
+        m_TargetAssemblyTypeName: CustomPalmMenu, Assembly-CSharp
+        m_MethodName: DisableRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenMove:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenCancel:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &173220799
 GameObject:
   m_ObjectHideFlags: 0
@@ -4191,6 +4568,7 @@ GameObject:
   - component: {fileID: 211556446}
   - component: {fileID: 211556445}
   - component: {fileID: 211556444}
+  - component: {fileID: 211556451}
   m_Layer: 0
   m_Name: ISDK_DistanceHandGrabInteraction
   m_TagString: Untagged
@@ -4207,7 +4585,7 @@ Transform:
   m_GameObject: {fileID: 211556442}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0, z: 0.088}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4293,8 +4671,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 211556450}
   _rigidbody: {fileID: 6132953622444234451}
@@ -4315,8 +4693,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 211556450}
   _rigidbody: {fileID: 6132953622444234451}
@@ -4364,7 +4742,7 @@ MonoBehaviour:
   _snapPoseTransform: {fileID: 0}
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 1065825389}
-  _timeOut: 2
+  _timeOut: 10
 --- !u!114 &211556450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4387,6 +4765,52 @@ MonoBehaviour:
   _rigidbody: {fileID: 6132953622444234451}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!114 &211556451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211556442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointable: {fileID: 211556448}
+  _whenRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704513682}
+        m_TargetAssemblyTypeName: CustomPalmMenu, Assembly-CSharp
+        m_MethodName: DisableRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenMove:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenCancel:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &220167160
 GameObject:
   m_ObjectHideFlags: 0
@@ -5428,9 +5852,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2122409352}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 96, y: -8}
   m_SizeDelta: {x: 28, y: 16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279978907
@@ -5845,6 +6269,7 @@ GameObject:
   - component: {fileID: 319483724}
   - component: {fileID: 319483723}
   - component: {fileID: 319483722}
+  - component: {fileID: 319483729}
   m_Layer: 0
   m_Name: ISDK_DistanceHandGrabInteraction
   m_TagString: Untagged
@@ -5861,7 +6286,7 @@ Transform:
   m_GameObject: {fileID: 319483720}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.198, y: 0.136, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5947,8 +6372,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 319483728}
   _rigidbody: {fileID: 1934357105}
@@ -5993,7 +6418,7 @@ MonoBehaviour:
     _pinkyRequirement: 1
     _unselectMode: 0
   _movementProvider: {fileID: 319483724}
-  _handAligment: 1
+  _handAligment: 0
   _handGrabPoses: []
 --- !u!114 &319483727
 MonoBehaviour:
@@ -6018,7 +6443,7 @@ MonoBehaviour:
   _snapPoseTransform: {fileID: 0}
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 1720035831}
-  _timeOut: 2
+  _timeOut: 10
 --- !u!114 &319483728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6041,6 +6466,52 @@ MonoBehaviour:
   _rigidbody: {fileID: 1934357105}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!114 &319483729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319483720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointable: {fileID: 319483726}
+  _whenRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704513682}
+        m_TargetAssemblyTypeName: CustomPalmMenu, Assembly-CSharp
+        m_MethodName: DisableRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenMove:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenCancel:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &324988627
 GameObject:
   m_ObjectHideFlags: 0
@@ -9540,9 +10011,9 @@ RectTransform:
   - {fileID: 1602359457}
   m_Father: {fileID: 2122409352}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 39, y: -8}
   m_SizeDelta: {x: 78, y: 16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &561409833
@@ -13348,6 +13819,7 @@ GameObject:
   - component: {fileID: 844859454}
   - component: {fileID: 844859453}
   - component: {fileID: 844859452}
+  - component: {fileID: 844859459}
   m_Layer: 0
   m_Name: ISDK_DistanceHandGrabInteraction
   m_TagString: Untagged
@@ -13364,7 +13836,7 @@ Transform:
   m_GameObject: {fileID: 844859450}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.154, y: 0.14, z: 0}
+  m_LocalPosition: {x: 0, y: 0.044, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13450,8 +13922,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 844859458}
   _rigidbody: {fileID: 1616389384}
@@ -13496,7 +13968,7 @@ MonoBehaviour:
     _pinkyRequirement: 1
     _unselectMode: 0
   _movementProvider: {fileID: 844859454}
-  _handAligment: 1
+  _handAligment: 0
   _handGrabPoses: []
 --- !u!114 &844859457
 MonoBehaviour:
@@ -13521,7 +13993,7 @@ MonoBehaviour:
   _snapPoseTransform: {fileID: 0}
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 545011126}
-  _timeOut: 2
+  _timeOut: 10
 --- !u!114 &844859458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13544,6 +14016,52 @@ MonoBehaviour:
   _rigidbody: {fileID: 1616389384}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!114 &844859459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844859450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointable: {fileID: 844859456}
+  _whenRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704513682}
+        m_TargetAssemblyTypeName: CustomPalmMenu, Assembly-CSharp
+        m_MethodName: DisableRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenMove:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenCancel:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &845453682
 GameObject:
   m_ObjectHideFlags: 0
@@ -19500,6 +20018,7 @@ GameObject:
   - component: {fileID: 1111995471}
   - component: {fileID: 1111995470}
   - component: {fileID: 1111995469}
+  - component: {fileID: 1111995476}
   m_Layer: 0
   m_Name: ISDK_DistanceHandGrabInteraction
   m_TagString: Untagged
@@ -19602,8 +20121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1111995475}
   _rigidbody: {fileID: 9214058870090579994}
@@ -19624,8 +20143,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1111995475}
   _rigidbody: {fileID: 9214058870090579994}
@@ -19673,7 +20192,7 @@ MonoBehaviour:
   _snapPoseTransform: {fileID: 0}
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 966713723}
-  _timeOut: 2
+  _timeOut: 10
 --- !u!114 &1111995475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19696,6 +20215,52 @@ MonoBehaviour:
   _rigidbody: {fileID: 9214058870090579994}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!114 &1111995476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111995467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointable: {fileID: 1111995473}
+  _whenRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704513682}
+        m_TargetAssemblyTypeName: CustomPalmMenu, Assembly-CSharp
+        m_MethodName: DisableRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenMove:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenCancel:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1113437885
 GameObject:
   m_ObjectHideFlags: 0
@@ -20046,6 +20611,210 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2483171112402213428, guid: f54012181eacade4ea242c65f804720f, type: 3}
   m_PrefabInstance: {fileID: 2021466221}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1150874902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1150874903}
+  - component: {fileID: 1150874907}
+  - component: {fileID: 1150874906}
+  - component: {fileID: 1150874905}
+  - component: {fileID: 1150874904}
+  - component: {fileID: 1150874908}
+  m_Layer: 0
+  m_Name: '[BuildingBlock] HandGrab'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1150874903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150874902}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7215010913715976326}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1150874904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150874902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1bc992571301d4a9602ac95ef4c71a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 1150874906}
+  _rigidbody: {fileID: 7215010913715976327}
+  _grabSource: {fileID: 0}
+  _useClosestPointAsGrabSource: 0
+  _releaseDistance: 0
+  _resetGrabOnGrabsUpdated: 1
+  _physicsGrabbable: {fileID: 0}
+--- !u!114 &1150874905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150874902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 1150874906}
+  _rigidbody: {fileID: 7215010913715976327}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.5
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 0
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 1
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 0
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 0
+  _handGrabPoses: []
+--- !u!114 &1150874906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150874902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transferOnSecondSelection: 0
+  _addNewPointsToFront: 0
+  _forwardElement: {fileID: 0}
+  _oneGrabTransformer: {fileID: 1150874908}
+  _twoGrabTransformer: {fileID: 1150874908}
+  _targetTransform: {fileID: 7215010913715976326}
+  _maxGrabPoints: -1
+  _rigidbody: {fileID: 7215010913715976327}
+  _kinematicWhileSelected: 1
+  _throwWhenUnselected: 1
+--- !u!114 &1150874907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150874902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockId: f8766c17-aaf8-4b55-9431-de8deea83842
+  instanceId: d8f4ee8e-cb56-4abf-b44e-98e857caf02d
+  version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: f8338144-8280-4ff6-9455-ae2bb9c20fe8
+    _installationVariants:
+    - _memberName: mode
+      _value: '{"value__":0}'
+--- !u!114 &1150874908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150874902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb7085c111fcb44493d57d4e336d3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _positionConstraints:
+    ConstraintsAreRelative: 0
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _rotationConstraints:
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _scaleConstraints:
+    ConstraintsAreRelative: 1
+    XAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    YAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    ZAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
 --- !u!1 &1160501734
 GameObject:
   m_ObjectHideFlags: 0
@@ -24867,6 +25636,7 @@ GameObject:
   - component: {fileID: 1485972696}
   - component: {fileID: 1485972695}
   - component: {fileID: 1485972694}
+  - component: {fileID: 1485972701}
   m_Layer: 0
   m_Name: ISDK_DistanceHandGrabInteraction
   m_TagString: Untagged
@@ -24883,7 +25653,7 @@ Transform:
   m_GameObject: {fileID: 1485972692}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.14, y: 0.18, z: 0}
+  m_LocalPosition: {x: 0, y: 0.125, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24969,8 +25739,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1485972700}
   _rigidbody: {fileID: 1067772804}
@@ -25015,7 +25785,7 @@ MonoBehaviour:
     _pinkyRequirement: 1
     _unselectMode: 0
   _movementProvider: {fileID: 1485972696}
-  _handAligment: 1
+  _handAligment: 0
   _handGrabPoses: []
 --- !u!114 &1485972699
 MonoBehaviour:
@@ -25040,7 +25810,7 @@ MonoBehaviour:
   _snapPoseTransform: {fileID: 0}
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 488394201}
-  _timeOut: 2
+  _timeOut: 10
 --- !u!114 &1485972700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25063,6 +25833,52 @@ MonoBehaviour:
   _rigidbody: {fileID: 1067772804}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!114 &1485972701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485972692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointable: {fileID: 1485972698}
+  _whenRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704513682}
+        m_TargetAssemblyTypeName: CustomPalmMenu, Assembly-CSharp
+        m_MethodName: DisableRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenMove:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenCancel:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1487371313
 GameObject:
   m_ObjectHideFlags: 0
@@ -27736,9 +28552,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 561409832}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 29.9, y: -8}
   m_SizeDelta: {x: 59.8, y: 16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1602359456
@@ -27775,9 +28591,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 561409832}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 70.8, y: -8}
   m_SizeDelta: {x: 16, y: 16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1602359458
@@ -30762,6 +31578,7 @@ GameObject:
   - component: {fileID: 1721429047}
   - component: {fileID: 1721429046}
   - component: {fileID: 1721429045}
+  - component: {fileID: 1721429052}
   m_Layer: 0
   m_Name: ISDK_DistanceHandGrabInteraction
   m_TagString: Untagged
@@ -30778,7 +31595,7 @@ Transform:
   m_GameObject: {fileID: 1721429043}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.223, y: 0.094, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30864,8 +31681,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1721429051}
   _rigidbody: {fileID: 8411746993341717115}
@@ -30910,7 +31727,7 @@ MonoBehaviour:
     _pinkyRequirement: 1
     _unselectMode: 0
   _movementProvider: {fileID: 1721429047}
-  _handAligment: 1
+  _handAligment: 0
   _handGrabPoses: []
 --- !u!114 &1721429050
 MonoBehaviour:
@@ -30935,7 +31752,7 @@ MonoBehaviour:
   _snapPoseTransform: {fileID: 0}
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 854467073}
-  _timeOut: 2
+  _timeOut: 10
 --- !u!114 &1721429051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30958,6 +31775,52 @@ MonoBehaviour:
   _rigidbody: {fileID: 8411746993341717115}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!114 &1721429052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721429043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointable: {fileID: 1721429049}
+  _whenRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704513682}
+        m_TargetAssemblyTypeName: CustomPalmMenu, Assembly-CSharp
+        m_MethodName: DisableRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenMove:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenCancel:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1722132845
 GameObject:
   m_ObjectHideFlags: 0
@@ -31049,6 +31912,7 @@ GameObject:
   - component: {fileID: 1742440551}
   - component: {fileID: 1742440550}
   - component: {fileID: 1742440549}
+  - component: {fileID: 1742440553}
   m_Layer: 0
   m_Name: '[BuildingBlock] HandGrab'
   m_TagString: Untagged
@@ -31147,11 +32011,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transferOnSecondSelection: 1
+  _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
-  _twoGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 1742440553}
+  _twoGrabTransformer: {fileID: 1742440553}
   _targetTransform: {fileID: 1934357104}
   _maxGrabPoints: -1
   _rigidbody: {fileID: 1934357105}
@@ -31177,6 +32041,68 @@ MonoBehaviour:
     _installationVariants:
     - _memberName: mode
       _value: '{"value__":0}'
+--- !u!114 &1742440553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742440547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb7085c111fcb44493d57d4e336d3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _positionConstraints:
+    ConstraintsAreRelative: 0
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _rotationConstraints:
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _scaleConstraints:
+    ConstraintsAreRelative: 1
+    XAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    YAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    ZAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
 --- !u!1 &1745657164
 GameObject:
   m_ObjectHideFlags: 0
@@ -32599,6 +33525,7 @@ GameObject:
   - component: {fileID: 1840763524}
   - component: {fileID: 1840763523}
   - component: {fileID: 1840763522}
+  - component: {fileID: 1840763529}
   m_Layer: 0
   m_Name: ISDK_DistanceHandGrabInteraction
   m_TagString: Untagged
@@ -32615,7 +33542,7 @@ Transform:
   m_GameObject: {fileID: 1840763520}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 19.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32701,8 +33628,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1840763528}
   _rigidbody: {fileID: 7215010913715976327}
@@ -32723,8 +33650,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: -1
-  _maxSelectingInteractors: -1
+  _maxInteractors: 1
+  _maxSelectingInteractors: 1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1840763528}
   _rigidbody: {fileID: 7215010913715976327}
@@ -32772,7 +33699,7 @@ MonoBehaviour:
   _snapPoseTransform: {fileID: 0}
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 1689873628}
-  _timeOut: 2
+  _timeOut: 10
 --- !u!114 &1840763528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32795,6 +33722,52 @@ MonoBehaviour:
   _rigidbody: {fileID: 7215010913715976327}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!114 &1840763529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840763520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointable: {fileID: 1840763526}
+  _whenRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704513682}
+        m_TargetAssemblyTypeName: CustomPalmMenu, Assembly-CSharp
+        m_MethodName: DisableRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenMove:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenCancel:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1841820034
 GameObject:
   m_ObjectHideFlags: 0
@@ -35310,6 +36283,7 @@ GameObject:
   - component: {fileID: 1977088438}
   - component: {fileID: 1977088437}
   - component: {fileID: 1977088436}
+  - component: {fileID: 1977088440}
   m_Layer: 0
   m_Name: '[BuildingBlock] HandGrab'
   m_TagString: Untagged
@@ -35408,11 +36382,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transferOnSecondSelection: 1
+  _transferOnSecondSelection: 0
   _addNewPointsToFront: 0
   _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
-  _twoGrabTransformer: {fileID: 0}
+  _oneGrabTransformer: {fileID: 1977088440}
+  _twoGrabTransformer: {fileID: 1977088440}
   _targetTransform: {fileID: 4608536297244769079}
   _maxGrabPoints: -1
   _rigidbody: {fileID: 8411746993341717115}
@@ -35438,6 +36412,68 @@ MonoBehaviour:
     _installationVariants:
     - _memberName: mode
       _value: '{"value__":0}'
+--- !u!114 &1977088440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977088434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb7085c111fcb44493d57d4e336d3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _positionConstraints:
+    ConstraintsAreRelative: 0
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _rotationConstraints:
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _scaleConstraints:
+    ConstraintsAreRelative: 1
+    XAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    YAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    ZAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
 --- !u!1 &1984057793
 GameObject:
   m_ObjectHideFlags: 0
@@ -37577,6 +38613,210 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1422535217}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2089341470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2089341471}
+  - component: {fileID: 2089341475}
+  - component: {fileID: 2089341474}
+  - component: {fileID: 2089341473}
+  - component: {fileID: 2089341472}
+  - component: {fileID: 2089341476}
+  m_Layer: 0
+  m_Name: '[BuildingBlock] HandGrab'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2089341471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089341470}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6865032506289751356}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2089341472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089341470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1bc992571301d4a9602ac95ef4c71a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 2089341474}
+  _rigidbody: {fileID: 7621921071288865849}
+  _grabSource: {fileID: 0}
+  _useClosestPointAsGrabSource: 0
+  _releaseDistance: 0
+  _resetGrabOnGrabsUpdated: 1
+  _physicsGrabbable: {fileID: 0}
+--- !u!114 &2089341473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089341470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 2089341474}
+  _rigidbody: {fileID: 7621921071288865849}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.5
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 0
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 1
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 0
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 0
+  _handGrabPoses: []
+--- !u!114 &2089341474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089341470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transferOnSecondSelection: 0
+  _addNewPointsToFront: 0
+  _forwardElement: {fileID: 0}
+  _oneGrabTransformer: {fileID: 2089341476}
+  _twoGrabTransformer: {fileID: 2089341476}
+  _targetTransform: {fileID: 6865032506289751356}
+  _maxGrabPoints: -1
+  _rigidbody: {fileID: 7621921071288865849}
+  _kinematicWhileSelected: 1
+  _throwWhenUnselected: 1
+--- !u!114 &2089341475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089341470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockId: f8766c17-aaf8-4b55-9431-de8deea83842
+  instanceId: 71307959-fa02-44d4-9ad8-0eb893973e88
+  version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: f8338144-8280-4ff6-9455-ae2bb9c20fe8
+    _installationVariants:
+    - _memberName: mode
+      _value: '{"value__":0}'
+--- !u!114 &2089341476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089341470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb7085c111fcb44493d57d4e336d3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _positionConstraints:
+    ConstraintsAreRelative: 0
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _rotationConstraints:
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _scaleConstraints:
+    ConstraintsAreRelative: 1
+    XAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    YAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    ZAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
 --- !u!1 &2089870413
 GameObject:
   m_ObjectHideFlags: 0
@@ -38728,6 +39968,210 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!1 &2137272143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2137272144}
+  - component: {fileID: 2137272148}
+  - component: {fileID: 2137272147}
+  - component: {fileID: 2137272146}
+  - component: {fileID: 2137272145}
+  - component: {fileID: 2137272149}
+  m_Layer: 0
+  m_Name: '[BuildingBlock] HandGrab'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2137272144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137272143}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3019451640091369311}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2137272145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137272143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1bc992571301d4a9602ac95ef4c71a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 2137272147}
+  _rigidbody: {fileID: 6132953622444234451}
+  _grabSource: {fileID: 0}
+  _useClosestPointAsGrabSource: 0
+  _releaseDistance: 0
+  _resetGrabOnGrabsUpdated: 1
+  _physicsGrabbable: {fileID: 0}
+--- !u!114 &2137272146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137272143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a7676b01585ce43908639a27765dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 2137272147}
+  _rigidbody: {fileID: 6132953622444234451}
+  _physicsGrabbable: {fileID: 0}
+  _resetGrabOnGrabsUpdated: 1
+  _scoringModifier:
+    _positionRotationWeight: 0.5
+  _slippiness: 0
+  _supportedGrabTypes: 3
+  _pinchGrabRules:
+    _thumbRequirement: 0
+    _indexRequirement: 1
+    _middleRequirement: 1
+    _ringRequirement: 0
+    _pinkyRequirement: 0
+    _unselectMode: 1
+  _palmGrabRules:
+    _thumbRequirement: 1
+    _indexRequirement: 0
+    _middleRequirement: 2
+    _ringRequirement: 2
+    _pinkyRequirement: 1
+    _unselectMode: 0
+  _movementProvider: {fileID: 0}
+  _handAligment: 0
+  _handGrabPoses: []
+--- !u!114 &2137272147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137272143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transferOnSecondSelection: 1
+  _addNewPointsToFront: 0
+  _forwardElement: {fileID: 0}
+  _oneGrabTransformer: {fileID: 2137272149}
+  _twoGrabTransformer: {fileID: 2137272149}
+  _targetTransform: {fileID: 3019451640091369311}
+  _maxGrabPoints: -1
+  _rigidbody: {fileID: 6132953622444234451}
+  _kinematicWhileSelected: 1
+  _throwWhenUnselected: 1
+--- !u!114 &2137272148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137272143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockId: f8766c17-aaf8-4b55-9431-de8deea83842
+  instanceId: 36e56f1f-6832-4fc9-955f-0767fc3fd53a
+  version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: f8338144-8280-4ff6-9455-ae2bb9c20fe8
+    _installationVariants:
+    - _memberName: mode
+      _value: '{"value__":0}'
+--- !u!114 &2137272149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137272143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb7085c111fcb44493d57d4e336d3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _positionConstraints:
+    ConstraintsAreRelative: 0
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _rotationConstraints:
+    XAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    YAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+    ZAxis:
+      ConstrainAxis: 0
+      AxisRange:
+        Min: 0
+        Max: 0
+  _scaleConstraints:
+    ConstraintsAreRelative: 1
+    XAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    YAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
+    ZAxis:
+      ConstrainAxis: 1
+      AxisRange:
+        Min: 1
+        Max: 1
 --- !u!1 &2139275128
 GameObject:
   m_ObjectHideFlags: 0
@@ -46056,7 +47500,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6859460217807592171, guid: 6c8f99dfe62f7814aaf91f2f3ad344b8, type: 3}
+  - {fileID: 2100000, guid: 2f27efccb6d5de745acc261ecbcbfe26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -49825,12 +51269,13 @@ Transform:
   m_GameObject: {fileID: 1981327132097552296}
   serializedVersion: 2
   m_LocalRotation: {x: -0.6835687, y: 0.18092498, z: 0.18092498, w: 0.6835687}
-  m_LocalPosition: {x: -0.0014016293, y: 0.0062775016, z: 0.0016534328}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.0014016293, y: 0.067, z: 0.0016534328}
+  m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 0.39999998}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 483170559648056674}
   - {fileID: 211556443}
+  - {fileID: 2137272144}
   m_Father: {fileID: 1070419185}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3044703277963754361
@@ -54990,11 +56435,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.00078147464, y: 0.12585282, z: 0}
-  m_LocalScale: {x: 0.26659125, y: 0.21629, z: 0.26659125}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.13, y: 0.105471194, z: 0.13}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5984377569240403392}
   - {fileID: 1111995468}
+  - {fileID: 3333378}
   m_Father: {fileID: 1070419185}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &4005475087183022764
@@ -56778,7 +58224,7 @@ Transform:
   m_GameObject: {fileID: 7172902896850849968}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 0.004168121, y: 0.48199993, z: -0.051}
+  m_LocalPosition: {x: 0.004168121, y: 0.465, z: -0.051}
   m_LocalScale: {x: 0.7760801, y: 0.7760801, z: 0.7760801}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -57846,7 +59292,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1588933500588633820}
   m_HandleRect: {fileID: 3375268894731336902}
   m_Direction: 2
-  m_Value: 0.99999917
+  m_Value: 0.9999995
   m_Size: 0.70376426
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -57895,8 +59341,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1588933501504993233}
   m_HandleRect: {fileID: 3375268893747799499}
   m_Direction: 2
-  m_Value: 0.9999999
-  m_Size: 0.49710983
+  m_Value: 1
+  m_Size: 0.4971098
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -57944,8 +59390,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1588933501341731025}
   m_HandleRect: {fileID: 3375268894642952907}
   m_Direction: 2
-  m_Value: 0.9999994
-  m_Size: 0.58265585
+  m_Value: 0.9999998
+  m_Size: 0.5826558
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -59997,15 +61443,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5635686430154383968}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 0, y: 1.0124, z: 0.3169}
+  m_LocalRotation: {x: 0.53729963, y: 0, z: 0, w: 0.8433915}
+  m_LocalPosition: {x: 0, y: 0.842, z: 0.259}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4766515051967928923}
   - {fileID: 6192619359627681677}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 65, y: 0, z: 0}
 --- !u!114 &5635686430154383972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64284,15 +65730,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7621921071288865847}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.007140586, y: 0.089612246, z: 0}
-  m_LocalScale: {x: 0.32825, y: 0.32825, z: 0.32825}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.198, z: 0}
+  m_LocalScale: {x: 0.11000001, y: 0.11000001, z: 0.11000001}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6591726994601075506}
   - {fileID: 171854280}
+  - {fileID: 2089341471}
   m_Father: {fileID: 1070419185}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!224 &6868629742341429522
 RectTransform:
   m_ObjectHideFlags: 0
@@ -64862,15 +66309,16 @@ Transform:
   m_GameObject: {fileID: 3688048401716050305}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0069102207, y: 0.0069102207, z: 0.0069102207}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0.057, z: 0}
+  m_LocalScale: {x: 0.004, y: 0.004, z: 0.004}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8773658239289069407}
   - {fileID: 6238019828039488866}
   - {fileID: 8277808587985634290}
   - {fileID: 9222778471360326096}
   - {fileID: 1840763521}
+  - {fileID: 1150874903}
   m_Father: {fileID: 1070419185}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!54 &7215010913715976327
@@ -65575,7 +67023,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2262664675462439934, guid: 2ff19cae04b82b241a1be1d08efe1509, type: 3}
+  - {fileID: 2100000, guid: 2f27efccb6d5de745acc261ecbcbfe26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -66267,7 +67715,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: b8c277e185ac9704299736037c180995, type: 3}
+  - {fileID: 2100000, guid: 2f27efccb6d5de745acc261ecbcbfe26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -68935,7 +70383,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4883188152366223512, guid: 77e83e1a7f26406469e4aede382cf138, type: 3}
+  - {fileID: 2100000, guid: 2f27efccb6d5de745acc261ecbcbfe26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
